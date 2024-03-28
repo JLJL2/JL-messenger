@@ -534,7 +534,7 @@ async function accountLogin(state, enableCommands = [], prefix, admin = []) {
 							const { threadID } = event;
 
 					if (event.logMessageData.addedParticipants && Array.isArray(event.logMessageData.addedParticipants) && event.logMessageData.addedParticipants.some(i => i.userFbId == userid)) {
-					api.changeNickname(`》 ${prefix} 《 ❃ ➠█▚▞▌▐◖▐▅▚▅▀▅█▚▌ `, threadID, userid);
+					api.changeNickname(`<< ${prefix} >> 𝑪𝑯𝑨𝑻-𝑮𝑷𝑻 `, threadID, userid);
 
 let gifUrls = [
 		'https://i.imgur.com/209z0iM.mp4',
