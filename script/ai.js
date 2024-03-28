@@ -15,7 +15,10 @@ module.exports.run = async function ({ api, event, args }) {
 		try {
 				const prompt = args.join(" ");
 				if (!prompt) {
-						await api.sendMessage("Hey I'm your virtual assistant, ask me a question.", event.threadID);
+						await api.sendMessage("🧋✨ | 𝒄𝒉𝒂𝒕-𝒈𝒑𝒕
+━━━━━━━━━━━━━━━━
+𝙥𝙤𝙨𝙚𝙧 𝙢𝙤𝙞 𝙫𝙤𝙩𝙧𝙚 𝙦𝙪𝙚𝙨𝙩𝙞𝙤𝙣			
+━━━━━━━━━━━━━━━━", event.threadID);
 						return;
 				}
 
